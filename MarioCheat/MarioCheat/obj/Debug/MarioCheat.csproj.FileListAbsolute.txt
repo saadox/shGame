@@ -1,0 +1,10 @@
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\bin\Debug\MarioCheat.exe.config
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\bin\Debug\MarioCheat.exe
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\bin\Debug\MarioCheat.pdb
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\bin\Debug\VAMemory.dll
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.csprojResolveAssemblyReference.cache
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.Main.resources
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.Properties.Resources.resources
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.csproj.GenerateResource.Cache
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.exe
+c:\users\thesa\documents\visual studio 2015\Projects\MarioCheat\MarioCheat\obj\Debug\MarioCheat.pdb
