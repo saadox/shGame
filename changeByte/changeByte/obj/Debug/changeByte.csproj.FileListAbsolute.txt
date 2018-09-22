@@ -1,0 +1,11 @@
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\bin\Debug\changeByte.exe.config
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.csprojResolveAssemblyReference.cache
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.Properties.Resources.resources
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.csproj.GenerateResource.Cache
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\bin\Debug\changeByte.exe
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\bin\Debug\changeByte.pdb
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\bin\Debug\Tools.dll
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\bin\Debug\Tools.pdb
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.exe
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.pdb
+c:\users\thesa\documents\visual studio 2015\Projects\changeByte\changeByte\obj\Debug\changeByte.BytesChanger.resources
