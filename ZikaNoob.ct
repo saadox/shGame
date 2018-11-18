@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="27">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"ZikaNoob"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : opera.exe
+  Version: 
+  Date   : 2018-11-18
+  Author : Thesa
+
+  This script does blah blah blah
+}
+
+[ENABLE]
+
+aobscan(INJECT,89 44 19 34 48 8B CA) // should be unique
+alloc(newmem,$1000,23954B3A5CCB)
+
+label(code)
+label(return)
+
+newmem:
+
+code:
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop
+  nop
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 89 44 19 34 48 8B CA
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+
+{
+// ORIGINAL CODE - INJECTION POINT: 23954B3A5CCB
+
+23954B3A5CA8: 3B D0                          -  cmp edx,eax
+23954B3A5CAA: 0F 92 C0                       -  setb al
+23954B3A5CAD: 0F B6 C0                       -  movzx eax,al
+23954B3A5CB0: 23 CA                          -  and ecx,edx
+23954B3A5CB2: 83 F8 00                       -  cmp eax,00
+23954B3A5CB5: 0F 84 70 02 00 00              -  je 23954B3A5F2B
+23954B3A5CBB: 8B 7C 19 34                    -  mov edi,[rcx+rbx+34]
+23954B3A5CBF: 83 F8 00                       -  cmp eax,00
+23954B3A5CC2: 0F 84 5E 02 00 00              -  je 23954B3A5F26
+23954B3A5CC8: 8D 47 FF                       -  lea eax,[rdi-01]
+// ---------- INJECTING HERE ----------
+23954B3A5CCB: 89 44 19 34                    -  mov [rcx+rbx+34],eax
+23954B3A5CCF: 48 8B CA                       -  mov rcx,rdx
+// ---------- DONE INJECTING  ----------
+23954B3A5CD2: 48 8B C2                       -  mov rax,rdx
+23954B3A5CD5: 33 D2                          -  xor edx,edx
+23954B3A5CD7: 48 8B DE                       -  mov rbx,rsi
+23954B3A5CDA: E8 F7 D1 DB FF                 -  call 23954B162ED6
+23954B3A5CDF: 48 8B 75 F0                    -  mov rsi,[rbp-10]
+23954B3A5CE3: 48 8B 45 E8                    -  mov rax,[rbp-18]
+23954B3A5CE7: 33 D2                          -  xor edx,edx
+23954B3A5CE9: E8 FA 7A D8 FF                 -  call 23954B12D7E8
+23954B3A5CEE: 48 8B 75 F0                    -  mov rsi,[rbp-10]
+23954B3A5CF2: 48 8B 9E 8F 00 00 00           -  mov rbx,[rsi+0000008F]
+}
+</AssemblerScript>
+      <Hotkeys>
+        <Hotkey>
+          <Action>Activate</Action>
+          <Keys>
+            <Key>65</Key>
+          </Keys>
+          <ID>0</ID>
+          <ActivateSound>Activate</ActivateSound>
+        </Hotkey>
+        <Hotkey>
+          <Action>Deactivate</Action>
+          <Keys>
+            <Key>68</Key>
+          </Keys>
+          <ID>1</ID>
+          <DeactivateSound>Deactivate</DeactivateSound>
+        </Hotkey>
+      </Hotkeys>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>5</ID>
+      <Description>"No description"</Description>
+      <LastState Value="89 44 19 34 48 8B CA" RealAddress="8645FB2628B"/>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>7</ByteLength>
+      <Address>8645FB2628B</Address>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+</CheatTable>
